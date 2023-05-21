@@ -1,7 +1,29 @@
 {
-    "welcome": {
-      "helloWorld": "Hello World, eh?",
-      "happyYear": "Happy {{ year }}!"
-    }
-  }
-  
+  "welcome": {
+    "helloWorld": "Hello World, eh?",
+    "happyYear": "Happy {{ year }}!"
+  },
+  "page.home.head.title": "jorgepardo.dev",
+
+  "component.navbar.description": "jorgepardo.dev",
+  "component.navbar.buttons.graphic": "Gráfico",
+  "component.navbar.buttons.ux": "UX/UI",
+  "component.navbar.buttons.profile": "Perfil",
+  "component.navbar.buttons.photo": "Fotografía",
+
+  "component.footer.buttons.cv": "Currículo",
+  "component.footer.buttons.behance": "Behance",
+  "component.footer.buttons.linkedin": "LinkedIn",
+  "component.footer.buttons.github": "Github",
+  "component.footer.buttons.contact": "Contacto",
+  "component.footer.text.rights": "Todos os dereitos reservados.",
+
+  "page.profile.titles.story": "Quen son?",
+  "page.profile.titles.whatdoido": "Que fago?",
+  "page.profile.titles.howdoidoit": "Como o fago?",
+  "page.profile.titles.experience": "Onde aprendín a facelo?",
+
+  "page.profile.story.greeting": "Ola, son Jorge Luis Pardo",
+  "page.profile.story.position.a": "Desenvolvedor frontend / ",
+  "page.profile.story.position.b": "Deseñador UI/UX / Gráfico"
+}

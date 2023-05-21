@@ -2,5 +2,84 @@
   "welcome": {
     "helloWorld": "Hello World!",
     "happyYear": "Happy {{ year }}!"
-  }
+  },
+  "component": {
+    "navbar": {
+      "description": "jorgepardo.dev",
+      "graphic": "Graphic",
+      "ux": "UI/UX",
+      "profile": "Profile",
+      "photo": "Photography"
+    },
+    "footer": {
+      "cv": "Curriculum",
+      "behance": "Behance",
+      "linkedin": "LinkedIn",
+      "github": "Github",
+      "contact": "Contact",
+      "rights": "All rights reserved."
+    }
+  },
+  "home": {
+    "head": {
+      "title": "jorgepardo.dev"
+    },
+    "profile": {
+      "titles": {
+        "story": "¿Quién soy?",
+        "whatdoido": "¿Qué hago?",
+        "howdoidoit": "¿Cómo lo hago?",
+        "experience": "¿Dónde aprendí a hacerlo?"
+      },
+      "story": {
+        "greeting": "Hola, soy Jorge Luis Pardo",
+        "position.a": "Desarrollador frontend / ",
+        "position.b": "Diseñador UI/UX / Gráfico",
+        "introduction.a": "Terminé mi carrera de diseño gráfico en 2012 y desde entonces he trabajado en proyectos relacionados a la programación y el diseño. Trabajé varios años compaginando tareas tanto de diseño offline (branding, impresos) como online (Desarrollo web con html/css, wordpress) para varios clientes. Durante los últimos 5 años hetrabajado en una empresa de videojuegos como Diseñador UI/UX, desarrollando un RPG en Unreal Engine.",
+        "introduction.b": "He participado también en tareas de comunicación gráfica y en conferencias de desarrolladores en esa empresa. Actualmente he terminado mi formación como desarrollador full stack, en el que he profundizado mis conocimientos en Javascript, Tailwind, React con Flux, Python, SQL y varias tecnologías más que me han proporcionado muchos recursos para integrarlos a mis habilidades profesionales.",
+        "cv": "Download my CV"
+      },
+      "experience": {
+        "title.xp": "Experiencia",
+        "anjana.title": "Desarrollador de front-end",
+        "anjana.company": "Anjana Investments, S.L.",
+        "anjana.duration": "jun. 2022 - actualidad",
+        "anjana.description.a1": "En este trabajo estoy participando en el rediseño de",
+        "anjana.description.a2": ", un portal que ofrece packs de servicios para reparación y mantenimiento de vehículos. Mi trabajo ha consistido en la maquetación y desarrollo de las diferentes vistas que tiene el site y su interacción con el backend. Paralelamente he cumplido tareas de corrección de bugs y correcciones visuales en los proyectos que tiene la empresa,",
+        "anjana.description.b": "En todos los proyectos, he trabajado con Ruby y Ruby on Rails, Javascript y he utilizado frameworks como Bootstrap y SASS.",
+        "gato.title": "UI/UX Designer",
+        "gato.company": "Gato Salvaje Studio",
+        "gato.duration": "sept. 2017 - feb. 2022",
+        "gato.description.a1": "Empecé a trabajar en Gato Studio en el inicio del proyecto",
+        "gato.description.a2": ", un RPG inspirado en la saga Dragon Age y ambientado en la época celta y medieval en el que controlas una party de 5 personajes. El juego ha sido lanzado en",
+        "gato.description.a3": "a principios de 2022. En Gato he trabajado como lead del equipo de UI/UX para el desarrollo de este proyecto desde el inicio del mismo.",
+        "gato.description.b": "A lo largo del proyecto, trabajé como jefe del departamento de UI/UX, el cual estaba integrado por cuatro personas entre diseñadores y programadores, aunque durante algunas fases del desarrollo contamos con colaboración de parte del equipo de concept. Además de trabajar en UI/UX, durante algunas fases del proyecto he participado en tareas del equipo de Guion y Marketing, donde me pidieron que participase en el diseño de piezas de arte promocionales del videojuego, las campañas de Kickstarter del juego de mesa y el videojuego de The Waylanders y el diseño de los stands utilizados en presentaciones de la empresa en ferias.",
+        "gato.description.c": "Acudí a las ediciones del año 2018 y 2019 de la Gamescom, en Colonia, donde presentamos el proyecto ante el público. En la edición de 2019 participé en la Devcom, donde hicimos una presentación contando nuestra experiencia diseñando un RPG.",
+        "fuji.title": "Diseñador Gráfico Creativo",
+        "fuji.company": "Grupo Comercial Rodriguez Marchesini",
+        "fuji.duration": "ago. 2004 - jun. 2015",
+        "fuji.description.a": "Trabajé con ellos durante 5 años, inicialmente como asistente administrativo. Posteriormente tuve la oportunidad de manejar la imagen gráfica de las empresas que componen este grupo. Para Fujiyama Sushi Bar trabajé en la elaboración de 3 ediciones del menú, en el cual hice el trabajo de fotografía y diseño. Posteriormente la empresa abrió una sede del restaurant en A Coruña y realicé un rediseño completo de la marca para ello. Durante varias campañas hice los artes gráficos (posters, gigantografías, volantes) de las promociones de la temporada. Participé también, junto a un programador, en el diseño de la página web de la empresa. A L'Exquisite le hice el desarrollo de la identidad corporativa integralmente, la cual se aplicó al negocio desde su apertura."
+      }
+    }
+  },
+
+
+
+  
+  "page.profile.education.title.education": "Educación",
+  "page.profile.education.4geeks.title": "Desarrollador de Software Full-Stack",
+  "page.profile.education.4geeks.company": "4Geeks Academy España",
+  "page.profile.education.4geeks.duration": "abr. 2022",
+  "page.profile.education.4geeks.description.a": "Completé el curso de Desarrollo Full Stack a principios de  2022 en el cual utilicé un set de las tecnologías mas utilizadas en el desarrollo web actual. En cuanto a frontend, trabajé inicialmente con HTML/CSS/Bootstrap para repasar los conceptos básicos de maquetación y posteriormente una parte del curso fue dedicada a aprender javascript y react, con el cual pude ahondar en los hooks como herramientas para programar las funcionalidad de una web y las interacciones con APIs.",
+  "page.profile.education.4geeks.description.b": "El módulo de backend estuvo centrado en Python, con el cual desarrollé varios ejercicios en los que tenía que diseñar una API que proporcionara información al frontend. Hicimos ejercicios de Data Modelling para ayudarnos a entender los principios del manejo de datos con SQL. En este módulo utilizamos también SQL Alchemy y Flask para diseñar APIs.",
+  "page.profile.education.4geeks.description.c": "Como proyecto final decidimos realizar un software de gestión de un gimnasio, Black Lion Box, en el cual nos pidieron desarrollar el front y el backend de forma que tanto usuarios como administradores pudieran registrarse en la página y apuntarse a las diferentes sesiones que estaban disponibles. Utilizamos todas las tecnologías que nos enseñaron en el curso, y adicionalmente utilizamos Tailwinds para tener mayor libertad de maquetación y un par de librerías externas para poder utilizar mapas, carruseles, elementos gráficos y gestión de formularios de contacto.",
+  "page.profile.education.videogames.title": "Curso de Desarrollo de Videojuegos",
+  "page.profile.education.videogames.company": "Gato Salvaje SL / Concello da CoruñaGato Salvaje SL",
+  "page.profile.education.videogames.duration": "2016 - 2017",
+  "page.profile.education.videogames.description.a": "Participé en el 1er Curso de Desarrollo de Videojuegos, impartido por Gato Salvaje, en el que impartieron los fundamentos del desarrollo de desarrollo de videojuegos, modelado y animación 3d, marketing y monetización de aplicaciones.",
+  "page.profile.education.videogames.description.b": "Al concluir el curso, inicié una fase de prácticas en el Vivero de Empresas del Papagayo, donde participé en el desarrollo de dos demos de videojuegos, en el departamento de UI/UX. De igual forma, como parte del curso, inicié junto a otros compañeros una startup de estudio de videojuegos (Wazzp Studio), con la cual iniciamos un proyecto indie que aun esta en desarrollo.",
+  "page.profile.education.graphic.title": "Técnico Superior en Diseño Gráfico",
+  "page.profile.education.graphic.company": "CU Monseñor de Talavera",
+  "page.profile.education.graphic.duration": "ene 2010 - dic 2012",
+  "page.profile.education.graphic.description.a": "Estudié Diseño Gráfico en el Colegio Universitario Monseñor de Talavera entre Enero de 2010 y Diciembre de 2012. Mi TFG consistió en un rediseño de la identidad corporativa y de comunicación de una línea aerea: Venezolana de Aviación. Dicho trabajo fue presentado ante el jurado en Noviembre de 2012 y obtuve una calificación de 19/20. En los enlaces hay una muestra del Manual de Identidad Corporativa desarrollado para esa presentación."
 }
