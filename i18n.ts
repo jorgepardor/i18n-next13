@@ -1,5 +1,5 @@
-export const defaultLocale = "en-US";
-export const locales = ["en-US", "en-CA", "fr-CA"] as const;
+export const defaultLocale = "es-ES";
+export const locales = ["es-ES", "en-US", "es-GA"] as const;
 export type ValidLocale = typeof locales[number];
 
 type PathnameLocale = {
@@ -30,12 +30,12 @@ export const getLocalePartsFrom = ({ pathname, locale }: LocaleSource) => {
 };
 
 const dictionaries: Record<ValidLocale, any> = {
+  "es-ES": () =>
+    import("dictionaries/es-ES.json").then((module) => module.default),
   "en-US": () =>
     import("dictionaries/en-US.json").then((module) => module.default),
-  "en-CA": () =>
-    import("dictionaries/en-CA.json").then((module) => module.default),
-  "fr-CA": () =>
-    import("dictionaries/fr-CA.json").then((module) => module.default),
+  "es-GA": () =>
+    import("dictionaries/es-GA.json").then((module) => module.default),
 } as const;
 
 export const getTranslator = async (locale: ValidLocale) => {
